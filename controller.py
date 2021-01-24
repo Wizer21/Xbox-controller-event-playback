@@ -1,6 +1,10 @@
 from evdev import*
 
 gamepad = InputDevice('/dev/input/event4')
+# 'even4' is my output, write the command below in your console to get a list of your available peripheral
+# ls /dev/input/
+# My output: by-id  by-path  event0  event1  event2  event3  event4  js0  mice  mouse0
+# Use this command before and after logging your controller, to see each one it is
 
 print(gamepad)
 
