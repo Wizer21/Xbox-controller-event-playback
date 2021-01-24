@@ -14,8 +14,8 @@ buttons = {
     172: "Xbox",
     158: "View",
     315: "Menu",
-    318: "Joy1 clicked",
-    318: "Joy2 clicked"
+    318: "Joy1",
+    318: "Joy2"
 }
 
 lt = 10
